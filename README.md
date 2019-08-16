@@ -25,6 +25,9 @@ pod 'MonoFingerprintSDK', :git => 'ssh://git@code.mthcdn.com:5422/freezeit/finge
 ```
 
 ## Example
+```ruby
+import MonoFingerprintSDK
+```
 
 ```ruby
 MonoFingerprintSDK.shared.getFingerprint(onSuccess: { (fingerprint) in
