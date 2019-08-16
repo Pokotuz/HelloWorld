@@ -16,7 +16,7 @@
 Using [CocoaPods](https://cocoapods.org) Simply add the following line to your Podfile:
 
 ```ruby
-pod 'MonoFingerprintSDK', :git => 'ssh://git@code.mthcdn.com:5422/freezeit/fingerprint-ios-framework.git' ,:branch => 'master'
+pod 'MonoFingerprintSDK', :git => 'ssh://git@code.mthcdn.com:5422/freezeit/fingerprint-ios-framework.git'
 ```
 
 ## Example
