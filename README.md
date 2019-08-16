@@ -7,17 +7,12 @@
 [![Carthage unavailable](https://img.shields.io/badge/Carthage-unavailable-red.svg)](https://github.com/Carthage/Carthage)
 
 ## Features
-
 Generate unique fingerprint.
 
 ## Installation
-
 **iOS 10.0+ target deployment**
-
 **SSH key needed**
-
 Please provide your ssh key pair to Lead of 'IT Team B' for authorized to production repository
-
 Using [CocoaPods](https://cocoapods.org) Simply add the following line to your Podfile:
 
 ```ruby
@@ -38,9 +33,7 @@ MonoFingerprintSDK.shared.getFingerprint(onSuccess: { (fingerprint) in
 ```
 
 ## Author
-
 MIS (IT Team B)
 
 ## License
-
 MonoFingerprintSDK is available under the MIT license. See the LICENSE file for more info.
