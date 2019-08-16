@@ -20,14 +20,13 @@ Please provide your ssh key pair to Lead of 'IT Team B' for authorized to produc
 
 Using [CocoaPods](https://cocoapods.org) Simply add the following line to your Podfile:
 
-```
-ruby
+```ruby
 pod 'MonoFingerprintSDK', :git => 'ssh://git@code.mthcdn.com:5422/freezeit/fingerprint-ios-framework.git' ,:branch => 'master'
 ```
 
 ## Example
 
-```
+```ruby
 MonoFingerprintSDK.shared.getFingerprint(onSuccess: { (fingerprint) in
    print(" ✅ Fingerprint = \(fingerprint)")
 }) { (errorMessage) in
