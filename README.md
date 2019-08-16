@@ -12,19 +12,20 @@
 ## Installation
 :heavy_exclamation_mark: iOS 10.0+ target deployment
 
-:heavy_exclamation_mark: SSH key needed : Please provide your ssh key pair to Lead of 'IT Team B' for authorized to production repository
+:heavy_exclamation_mark: SSH key needed : Please provide your 'SSH key' pair to Lead of 'IT Team B' for authorized to production repository
+
 Using [CocoaPods](https://cocoapods.org) Simply add the following line to your Podfile:
 
-```ruby
+```swift
 pod 'MonoFingerprintSDK', :git => 'ssh://git@code.mthcdn.com:5422/freezeit/fingerprint-ios-framework.git'
 ```
 
 ## Example
-```ruby
+```swift
 import MonoFingerprintSDK
 ```
 
-```ruby
+```swift
 MonoFingerprintSDK.shared.getFingerprint(onSuccess: { (fingerprint) in
    print(" ✅ Fingerprint = \(fingerprint)")
 }) { (errorMessage) in
